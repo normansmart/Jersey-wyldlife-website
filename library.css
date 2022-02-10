@@ -14,21 +14,23 @@ body{
  }
 
 
+
+
+
+
  nav {
   width: 100%;
-  height: 110px;
-  background: #FDFFFF;
-  border-bottom: 1px solid #314c5534;
-  color: #4B6E49;
-  font-size: 16px;
-  font-weight: 400;
+  height: 100px;
+  background: #091317;
+
+
 
 }
 
 
 nav ul {
   width: 50%;
-  height: 110px;
+  height: 100px;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -44,15 +46,15 @@ nav ul {
 .navli{
 
   margin: 30px;
-  font-size: 17px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 600;
 
   
 }  
 
 .home-button{
     width: 30%;
-    height: 110px;
+    height: 100px;
     margin: 0;
     float: left;
     display: flex;
@@ -67,7 +69,7 @@ nav ul {
 
 
 nav a{
-  color: #3B8B6C;
+  color: #55BB9C;
   text-decoration: none;
 }
 
@@ -99,101 +101,105 @@ display: none;
 
 
 
+
 .landing-page{
-width: 100%;
+  width: 100%;
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ .title-header{
+   width: 100%;
+   height: 680px;
+ 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ 
+ background-image: url('images/banner-image-library.png');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+ 
+   
+ 
+ }
+ 
+ 
+ 
+ 
+ .title-text{
+   width: 1000px;
+ text-align: center
+ }
+ 
+ 
+ .title{
+   width: 650px;
+ 
+ margin: auto;
+ 
+ }
+ 
+ 
+ 
+ .subhead{
+   width: 100%;
+   font-family: 'Laila' , sans-serif;
+   font-size: 38px;
+   font-weight: bold;
+   color: #F0F6F1;
+  margin: 0;
+  
+   line-height: 1.5em;
+   letter-spacing: -0.03em;
+ 
+ 
+  
+ }
+ 
+ 
+ .description{
+   width: 100%;
+   font-family: 'Laila' , sans-serif;
+   font-size: 25px;
+   font-weight: 600;
+   
+  color: #F0F6F1;
+  margin: 0;
+ 
+  line-height: 161.4%;
+   letter-spacing: -0.03em;
+ 
+ 
+ }
+ 
 
-display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
-
-.title-header{
-width: 70%;
-
-display: inline-block;
-
-
-
-}
-
-
-.logofull{
-width: 160px;
-float: left;
-margin-left: 15%;
-
-}
-
-
-.title-text{
-width: 55%;
-float: left;
-margin-left: 2%;
-}
-
-
-.title{
-width: 95%;
-
-
-margin: 0px;
-}
-
-
-
-.subhead{
-width: 100%;
-font-size: 38px;
-font-weight: bold;
-color: #132F3A;
-margin: 0;
-
-line-height: 1.5em;
-letter-spacing: -0.03em;
-
-
-
-}
-
-
-.description{
-width: 100%;
-font-size: 19px;
-font-weight: 500;
-color: #132F3A;
-margin: 0;
-
-line-height: 32.28px;
-letter-spacing: -0.03em;
-margin-bottom: 2%;
-
-}
-
-
-.call-button{
-width: 300px;
-height: 70px;
-background-color: #3B8B6C;
-border: none;
-border-radius: 100px;
-
-display: flex;
-  justify-content: center;
-  align-items: center;
-
-
-  font-size: 30px;
-  font-weight: 500;
-  color: rgb(255, 255, 255);
-
-}
-
-
-
-
-
+ 
+ .call-button{
+   width: 300px;
+   height: 70px;
+   background-color: #3B8B6C;
+   border: none;
+   border-radius: 7px;
+ 
+   display: flex;
+     justify-content: center;
+     align-items: center;
+ 
+ 
+     font-size: 30px;
+     font-weight: 500;
+     color: rgb(255, 255, 255);
+ 
+     margin: auto;
+     margin-top: 30px;
+ }
+ 
 
 
 
@@ -217,6 +223,22 @@ margin-bottom: 40px;
 
 
 
+.helpful-tips{
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Laila' , sans-serif;
+ 
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #66e28b;
+
+  background-color: #120707;
+  margin: 0;
+
+padding-top: 50px;
+
+}
 
 
 
@@ -241,22 +263,25 @@ margin-bottom: 40px;
   padding-top: 5%;
   padding-bottom: 3%;
 
-
 display: inline-block;
 
 
+
 }
+
+
 
 .animal-image{
   
   width: 38%;
   float: left;
   margin-left: 4%;
+  margin-top: 10px;
 
 }
 
 .info-container{
-  width: 24%;
+  width: 22%;
   float: left;
   
   margin-left: 4%;
@@ -297,15 +322,12 @@ display: inline-block;
 
 
 
-
 .warnings-container{
-  width: 22%;
+width: 24%;
 border: 2px solid #402f2b48;
 border-radius: 3%;
-
 float: left;
 margin-left: 4%;
-
 
 }
 
@@ -332,7 +354,7 @@ margin-left: 4%;
   width: 50px;
   height: 50px;
 float: left;
-margin-left: 10px;
+margin-left: 7px;
 }
 
 .tip{
@@ -367,7 +389,7 @@ margin-left: 10px;
 
 
 
-@media  screen and (max-width:1600px)  {
+@media  screen and (max-width:1300px)  {
 
 
 
@@ -544,7 +566,7 @@ margin-left: 10px;
 
 
 
-@media  screen and (max-width:1279px)  {
+@media  screen and (max-width:1024px)  {
 
 
 
