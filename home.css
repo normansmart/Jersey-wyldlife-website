@@ -6,7 +6,7 @@ html{
 
 body{
  
-     background-color: #F0F6F1;
+     background-color: #081216;
      font-family: 'Montserrat', sans-serif;
      width: 100%;
      height: auto;
@@ -18,7 +18,6 @@ body{
     width: 100%;
     height: 100px;
     background: #091317;
-  
   
 
   }
@@ -96,7 +95,6 @@ nav a.current {
 .landing-page{
  width: 100%;
 
-
 }
 
 
@@ -116,7 +114,7 @@ background-image: url('images/background-home.png');
   background-position: center;
   background-size: cover;
 
-  
+  padding-bottom: 200px;
 
 }
 
@@ -231,19 +229,18 @@ text-align: center;
   text-align: center;
   font-size: 50px;
   font-family: 'Laila' , sans-serif;
- 
   font-weight: 600;
-  margin-bottom: 20px;
+  padding-top: 100px;
+  margin-bottom: 50px;
   color: #385E6C;
 
-  
 
 }
 
 
 
 .services-container{
-  width: 1300px;
+  width: 1324px;
 
 margin: auto;
 
@@ -254,9 +251,8 @@ display: inline-block;
 
 .service-box{
     width: 375px;
-    height: 70px;
-    border: 2px solid #132f3a3f;
-    background-color: #F0F6F1;
+    height: 350px;
+   
     border-radius: 10px;
     
  margin: 25px;
@@ -268,89 +264,113 @@ float: left;
 }
 
 
-.service-box :active{
-  background-color: #f4fcf8;
-}
 
 
 .service-header{
-    width: 100%;
-    height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
+   width: 375px;
+  position: absolute;
 }
 
 
 
 .service-header-text{
-    width: 78%;
-  
+
+    font-family: 'Laila' , sans-serif;
+    font-size: 32px;
+    font-weight: 600;
    
-    font-size: 18px;
-    font-weight: 700;
-   
-    color: #132f3ad0;
+    color: #201414b7;
     text-align: left;
   
-
-    
-}
-
-.plusbar{
-  width: 13%;
-  font-size: 40px;
-  font-weight: 400;
-  color: #132f3ac4;
-
   
+    margin-bottom: 10px;
+    margin-top: 60px;
+    margin-left: 5%;
+    line-height: 45px;
+   
+
 }
+
+
+
+
+
+.service-image{
+ 
+
+ position: absolute;
+  z-index: -1;
+  border-radius: 10px;
+
+}
+
+.service-image img{
+  width: 375px;
+  height: 350px;
+  margin: 0;
+}
+
+
+
+
 
 
 .service-description{
-  width: 100%;
+  width: 375px;
+  height: 165px;
 
-display: none;
+
+
+ 
+ 
 
 }
 
 
 .service-description-text{
   width: 90%;
+  
   margin: auto;
 
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 500;
   text-align: left;
-  line-height: 26px;
-  color: #132f3a;
-  margin-bottom: 10px;
-
-  border-bottom: 1px solid #132f3a59;
-  padding-bottom: 10px;
+  line-height: 30px;
+  color: #ffffff;
 
 }
 
 
 
 .view-more-button{
-  width: 100%;
-font-size: 22px;
+  width: 160px;
+  height: 50px;
+font-size: 16px;
 font-weight: 700;
-color: #132f3ac2;
+color: #132f3a;
 margin: 0;
 
+border-radius: 250px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    position: relative;
+    top: 325px;
+    left: 160px;
+   
+    
 }
+
+
 
 
 .service-link{
   text-decoration: none;
+
 }
-
-
-
-
 
 
 
@@ -370,7 +390,7 @@ margin: 0;
 .page-wrapper2{
   width: 100%;
   margin-top: 10%;
-text-align: center;
+
 }
 
 
@@ -380,46 +400,60 @@ text-align: center;
 
 .warnings-container{
   width: 1300px;
-  background-color: #385E6C;
-  display: inline-block;
+  margin: auto;
 
 
 }
 
 
 .warning{
-  width: 425px;
-  background-color: #F0F6F1;
-  float: left;
-  margin-left: 12px;
+  width: 100%;
+  background-color: #e5f0e5;
+
+ 
+
+  border-radius: 20px;
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  margin-bottom: 30px;
+  
+  
 
 }
 
 .warning-image{
   width: 150px;
+  margin-left: 5%;
 }
 
 
 
 .warning-text{
   width: 100%;
+  margin-left: 5%;
 }
 
 
 .warning-title{
-  font-size: 26px;
-  font-weight: 600;
-  
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'Laila' , sans-serif;
   margin-top: 10px;
 }
 
 .warning-message{
-  width: 90%;
-  margin: auto;
-  font-size: 17px;
-  font-weight: 500;
+  width: 80%;
+ 
+  margin-left: 3%;
+ 
+  font-size: 19px;
+  font-weight: 600;
   line-height: 35px;
   text-align: left;
+line-height: 40px;
+  color: #132f3a;
 }
 
 
@@ -440,6 +474,7 @@ text-align: center;
 
   font-size: 16px;
   font-weight: 600;
+  margin-left: 1000px;
 }
 
 
